@@ -1,0 +1,148 @@
+html
+{
+    height : 100%;
+    min-height: 200%;
+}  
+
+body
+{
+    color: #222;
+}  
+#hautpage
+{
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 1fr 50px 50px 50px 70px;
+ 
+}
+
+#gmail
+{
+    justify-self: center;
+    align-self: center;
+}
+#images
+{
+    justify-self: center;
+    align-self: center;
+}
+#Logo
+{
+    justify-self: center;
+    align-self: center;
+}
+#se-connecter
+{
+    justify-self: center;
+    align-self: center;
+}
+
+
+a  
+{
+    text-decoration: none;
+    color: #222;
+    font-family: arial,sans-serif;
+    font-size: small;
+
+
+}
+
+#centre
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 70px 70px 250px;
+    grid-template-areas:
+    ". Logo ."
+    ". rechercher ."
+    ". flexbox .";
+
+}
+
+#Logo
+{
+    grid-area: Logo;
+    justify-content: center;
+    align-self: flex-end;
+
+}
+
+#rechercher
+{
+    grid-area: rechercher;
+    height: 34px;
+    width: 600px;
+    align-self: center;
+    border-radius: 20px;
+    color: silver;
+    text-shadow: 40px
+}
+
+
+#flexbox
+{
+    display: flexbox;
+    grid-area: flexbox;
+    justify-content: center;
+    align-self: center;
+
+}
+
+#basdepage
+{
+
+    display: grid;
+    grid-template-columns: 70px 70px 70px 500px 220px 90px 70px 70px 70px;
+    grid-template-rows: 40px;
+    grid-template-areas: "publicite entreprise A-propos Comment informations confidentialite conditions parametres";
+}
+
+#publicite
+{
+    grid-area: publicite;
+    justify-self: center;
+    align-self: center;
+}  
+#entreprise
+{
+    grid-area: entreprise;
+    justify-self: center;
+    align-self: center;
+}  
+#A-propos
+{
+    grid-area: A-propos;
+    justify-self: center;
+    align-self: center;
+}  
+#Comment
+{
+    grid-area: Comment;
+    justify-self: left;
+    align-self: center;
+}  
+#informations
+{
+    grid-area: informations;
+    justify-self: center;
+    align-self: center;
+}  
+#confidentialite
+{
+    grid-area: confidentialite;
+    justify-self: center;
+    align-self: center;
+}  
+#conditions
+{
+    grid-area: conditions;
+    justify-self: center;
+    align-self: center;
+}  
+#parametres
+{
+    grid-area: parametres;
+    justify-self: center;
+    align-self: center;
+}
